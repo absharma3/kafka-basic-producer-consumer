@@ -20,5 +20,6 @@ Please read the follwing to have a better understanding how to make the project 
  to produce the message. This will hit the generateMessage of producer.js
  * The consumer will automatically read the message from topic/test topics and print it on console. 
  
- 
+
+ TODO: Make topics for consumer configurable and update README with details of Kafka terminology
  
