@@ -16,9 +16,7 @@ const payloads = [
 ]
 const consumer = new kafka.Consumer(client, payloads, options);
 
-consumer.on('ready', function(){
-    console.log("Kafka Consumer is connected and ready.");
-});
+
 consumer.on('message', function (message) {
     console.log(message.value);
     consumer.commit();
